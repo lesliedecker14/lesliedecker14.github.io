@@ -1,24 +1,12 @@
 
-/*.container {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  margin:  10px;
-}
-img {
-  max-width: 100%;
-  padding: 5px, 5px, 5px, 5px;
-}*/
-/*.image {
-  flex-basis: 70%;*/
-
 .image {
-  margin:  20px;
+  margin: 20px;
   float:left;
 }
 .text {
   font-size: 16px;
   padding-left: 1px;
+  padding-right: 15px;
 }
 
 .navbar {
@@ -37,30 +25,19 @@ img {
 }
 
 
-.titles {
-      color: #0099b8;
-      font-size: 14pt;
-    }
-
-
 /* Change color on hover */
 .navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 10px) {
-  .row {
-    flex-direction: column;
-  }
+a {
+  text-decoration:none; 
+  color: #0080FF;
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 10px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
+a:hover {
+  text-decoration:none; 
+  color: #0000FF;
 }
 
